@@ -1,37 +1,137 @@
-Jackson Ivan Mallama Rojas
-Ingeniero de Sistemas
+Jackson Ivan Mallama Rojas | Portafolio
+.resume-container { display: flex; flex-direction: row; width: 100%; max-width: 900px; background: #fff; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); border-radius: 5px; overflow: hidden; margin: 20px 0; }
+    
+    /* Barra Lateral Izquierda (Azul Oscuro) */
+    .sidebar { width: 32%; background-color: #1a365d; color: #f8fafc; padding: 30px 20px; display: flex; flex-direction: column; gap: 30px; }
+    .sidebar h2 { font-size: 1.0rem; text-transform: uppercase; border-bottom: 2px solid #3b82f6; padding-bottom: 5px; margin-bottom: 15px; letter-spacing: 0.5px; text-align: center; }
+    .contact-item { margin-bottom: 12px; font-size: 0.88rem; line-height: 1.4; word-break: break-word; }
+    .contact-item strong { display: block; color: #93c5fd; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 2px; }
+    .sidebar a { color: #ffffff; text-decoration: none; }
+    .sidebar a:hover { text-decoration: underline; }
 
-Profesional enfocado en administración de bases de datos, desarrollo web Full Stack y servicios en la nube. 
-Complementado con formación en Metodologías Ágiles para el desarrollo de software.
+    /* Contenido Principal Derecho (Blanco) */
+    .main-content { width: 68%; padding: 40px 35px; background-color: #ffffff; }
+    .header-title { border-bottom: 3px solid #cbd5e1; padding-bottom: 20px; margin-bottom: 30px; }
+    .header-title h1 { font-size: 2.3rem; color: #0f172a; text-transform: uppercase; letter-spacing: 1px; line-height: 1.0; font-weight: 800; }
+    .header-title .subtitle { font-size: 1.15rem; color: #475569; margin-top: 8px; font-weight: 600; text-transform: uppercase; }
+    
+    .section-box { margin-bottom: 25px; }
+    .section-box h2 { background-color: #1e3a5f; color: #ffffff; font-size: 0.95rem; padding: 5px 15px; border-radius: 10px; display: inline-block; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 0.5px; }
+    
+    .about-text { font-size: 0.92rem; color: #334155; line-height: 1.6; }
+    .skills-list { list-style: none; padding-left: 5px; }
+    .skills-list li { margin-bottom: 12px; font-size: 0.9rem; line-height: 1.5; color: #334155; display: flex; align-items: flex-start; }
+    .skills-list li::before { content: "▪"; color: #3b82f6; font-size: 1.1rem; margin-right: 10px; margin-top: -2px; }
+    .skills-list strong { color: #0f172a; font-weight: 700; }
+    
+    .edu-item { margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px dashed #e2e8f0; }
+    .edu-item:last-child { border-bottom: none; }
+    .edu-header { display: flex; justify-content: space-between; font-weight: 700; color: #0f172a; font-size: 0.95rem; gap: 10px; }
+    .edu-sub { font-size: 0.88rem; color: #64748b; margin-top: 2px; }
+    
+    .languages { font-size: 0.92rem; color: #334155; padding-left: 5px; }
+    .languages strong { color: #0f172a; }
 
-Habilidades Técnicas
-Bases de Datos
-PostgreSQL, MySQL, SQL.
-Desarrollo Web (Full Stack)
-Frontend: React, Angular.
-Backend: Python/Django, Java, Node.js.
-Computación en la Nube (AWS)
-EC2, RDS, S3, VPC.
-Redes y Comunicaciones
-Direccionamiento IP, subredes, DNS y DHCP.
+    /* Adaptación para celulares */
+    @media (max-width: 700px) {
+        .resume-container { flex-direction: column; }
+        .sidebar, .main-content { width: 100%; padding: 25px; }
+    }
+</style>
+<div class="resume-container">
+    
+    <!-- BARRA LATERAL (Azul Oscuro) -->
+    <aside class="sidebar">
+        <div class="section-sidebar">
+            <h2>Contacto</h2>
+            <div class="contact-item">
+                <strong>Teléfono</strong>
+                (+57) 323 345 6071
+            </div>
+            <div class="contact-item">
+                <strong>Correo Electrónico</strong>
+                <a href="mailto:jacksonimr7@gmail.com">jacksonimr7@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <strong>Identificación</strong>
+                1193483476
+            </div>
+            <div class="contact-item">
+                <strong>Ubicación</strong>
+                Mz 9 Cs 26 LA MINGA - Pasto (N)
+            </div>
+        </div>
 
-Educación
-Ingeniería de Sistemas
-Universidad de Nariño
-2026
-Diplomado en Metodologías Ágiles y Tecnologías Avanzadas
-Desarrollo de Software
-2025-2026
-Bachiller Académico
-I.E.M. Ciudad de Pasto
-2020
+        <div class="section-sidebar">
+            <h2>Referencias</h2>
+            <div class="contact-item">
+                <strong>Alex Mallama</strong>
+                Ingeniero electrónico<br>
+                (316) 212-3456
+            </div>
+            <div class="contact-item">
+                <strong>Consucol SAS</strong>
+                Luis Sandoval<br>
+                (601) 210 2570
+            </div>
+        </div>
 
-Idiomas
-Español: Nativo  |  Inglés: Intermedio B2
+        <div class="section-sidebar">
+            <h2>Portafolio online</h2>
+            <div class="contact-item">
+                <a href="[https://www.linkedin.com/in/jacksonivanmr7](https://www.linkedin.com/in/jacksonivanmr7)" target="_blank">[linkedin.com/in/jacksonivanmr7</a&gt](https://linkedin.com/in/jacksonivanmr7</a&gt);
+            </div>
+        </div>
+    </aside>
 
-Contacto
-📞 (+57) 323 345 6071
-📍 Pasto, Nariño
+    <!-- CONTENIDO PRINCIPAL (Blanco) -->
+    <main class="main-content">
+        <div class="header-title">
+            <h1>JACKSON IVAN<br>MALLAMA ROJAS</h1>
+            <div class="subtitle">INGENIERO DE SISTEMAS</div>
+        </div>
 
-© 2026 Jackson Ivan Mallama Rojas - Portafolio Profesional
+        <div class="section-box">
+            <h2>Sobre mí</h2>
+            <p class="about-text">
+                Profesional en Ingeniería de Sistemas con una personalidad alegre, entusiasta y motivada por ayudar y aportar al crecimiento del equipo. Enfocado en el área de administración de bases de datos y desarrollo web. Recientemente complementé mi carrera con un diplomado en Metodologías Ágiles y Tecnologías Avanzadas para el Desarrollo de Software. Estoy en búsqueda de mi primera oportunidad profesional laboral para aplicar mis capacidades, adaptarme a nuevos retos y crecer profesionalmente.
+            </p>
+        </div>
 
+        <div class="section-box">
+            <h2>Habilidades</h2>
+            <ul class="skills-list">
+                <li><span><strong>Bases de Datos:</strong> Gestión y consultas en PostgreSQL, MySQL, SQL.</span></li>
+                <li><span><strong>Desarrollo web:</strong> Conocimientos Full Stack, aplicando frameworks para backend (Python/Django, Java, Node.js) y frontend (React, Angular).</span></li>
+                <li><span><strong>Computación en la Nube:</strong> Manejo de servicios fundamentales de AWS (Amazon Web Services), tales como EC2, RDS, S3 y VPC.</span></li>
+                <li><span><strong>Redes y Comunicaciones:</strong> Direccionamiento IP, segmentación de subredes y configuración de servicios como DNS y DHCP.</span></li>
+            </ul>
+        </div>
+
+        <div class="section-box">
+            <h2>Educación</h2>
+            <div class="edu-item">
+                <div class="edu-header">
+                    <span>Ingeniero de Sistemas</span>
+                    <span>2026</span>
+                </div>
+                <div class="edu-sub">Universidad de Nariño</div>
+            </div>
+            <div class="edu-item">
+                <div class="edu-header">
+                    <span>Bachiller académico</span>
+                    <span>2020</span>
+                </div>
+                <div class="edu-sub">Institución Educativa Municipal Ciudad de Pasto</div>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h2>Idiomas</h2>
+            <div class="languages">
+                <strong>Español:</strong> Nativo &nbsp;&nbsp;|&nbsp;&nbsp; <strong>Inglés:</strong> Intermedio B2
+            </div>
+        </div>
+    </main>
+
+</div>
